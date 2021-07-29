@@ -1,4 +1,4 @@
-# google-cloud-vpc-workshop
+# google-cloud-armor-workshop
 Launch a Google Cloud Armor Policy to protect your web apps against known vulnerabilities using Terraform.
 
 
