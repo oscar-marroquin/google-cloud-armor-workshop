@@ -4,8 +4,8 @@
 
 resource "google_project_service" "services_enabled_project" {
   for_each = toset([
-    "servicenetworking.googleapis.com",
-    "dns.googleapis.com"
+    "compute.googleapis.com",
+    "servicenetworking.googleapis.com"
   ])
 
   service            = each.key
